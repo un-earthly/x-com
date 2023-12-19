@@ -43,7 +43,7 @@ export default function FeatureListSection() {
                             <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></li>
                     </ul>
 
-                    <button className="h-10 w-36 my-4 rounded-full bg-purple-500">Get Started</button>
+                    <button className="h-10 w-36 my-4 rounded-full bg-purple-500 text-white">Get Started</button>
                 </div>
             </div>
         </section>
