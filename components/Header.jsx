@@ -13,7 +13,7 @@ function Header() {
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
-                <Navbar.Link href="#" active>
+                <Navbar.Link href="#">
                     Login
                 </Navbar.Link>
                 <Navbar.Link as={Link} href="#">

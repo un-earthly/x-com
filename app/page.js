@@ -1,13 +1,13 @@
 import Banner from '@/components/Banner'
 import Branding from '@/components/Branding'
-import CreativeSection from '@/components/CreativeSection'
 import FeatureListSection from '@/components/FeatureListSection'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Intro from '@/components/Intro'
 import ReverseSection from '@/components/ReverseSection'
+import Reviews from '@/components/Reviews'
 import Section from '@/components/Section'
-import Image from 'next/image'
+import SolutionsSection from '@/components/SolutionsSection'
 
 export default function Home() {
   return (
@@ -18,10 +18,11 @@ export default function Home() {
       <Banner />
       <Branding />
       <Intro />
-      {/* <CreativeSection /> */}
       <Section />
+      <SolutionsSection />
       <FeatureListSection />
-      <Section />
+      <ReverseSection />
+      <Reviews />
       <Footer />
 
     </div>

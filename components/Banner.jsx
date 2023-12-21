@@ -1,9 +1,10 @@
 import { Avatar } from 'flowbite-react'
 import React from 'react'
+import Button from './ui/Button'
 
 export default function Banner() {
     return (
-        <div className="w-full bg-center bg-cover bg-gradient-to-br from-purple-400 to-cyan-300" >
+        <div className="w-full bg-center bg-cover bg-gradient-to-br from-[#8000ff] to-[#de00ff]" >
             <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
                 <div className="text-center">
                     <div className="container px-4 mx-auto">
@@ -24,12 +25,7 @@ export default function Banner() {
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit cum iure qui, nostrum at sapiente ducimus.
                             </p>
                             <div className="rounded-full border-2 h-10 w-10 mx-auto mt-2 mb-10"></div>
-                            <a
-                                className="inline-block rounded-full mb-4 mx-auto w-56 py-5 px-3 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 hover:bg-gray-100 text-gray-800 transition duration-200"
-                                href="#"
-                            >
-                                Get Started
-                            </a>
+                            <Button bg="bg-white text-black hover:bg-gray-100">Get Started</Button>
                         </div>
                     </div>
                 </div>
