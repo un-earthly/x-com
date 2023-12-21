@@ -1,6 +1,5 @@
-import { Avatar } from 'flowbite-react'
+import { Avatar, Button } from 'flowbite-react'
 import React from 'react'
-import Button from './ui/Button'
 
 export default function Banner() {
     return (
@@ -25,7 +24,7 @@ export default function Banner() {
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit cum iure qui, nostrum at sapiente ducimus.
                             </p>
                             <div className="rounded-full border-2 h-10 w-10 mx-auto mt-2 mb-10"></div>
-                            <Button bg="bg-white text-black hover:bg-gray-100">Get Started</Button>
+                            <Button className='mx-auto rounded-full bg-white text-black'>Get Started</Button>
                         </div>
                     </div>
                 </div>

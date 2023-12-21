@@ -1,25 +1,24 @@
-// import React from 'react'
-// import ReviewCard from './ui/ReviewCard'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Pagination, Autoplay, } from 'swiper/modules';
-// import 'swiper/css';
 
-// export default function Reviews() {
-//     return (
-//         <Swiper
-//             slidesPerView={'auto'}
-//             centeredSlides={true}
-//             spaceBetween={30}
-//             loop
-//             pagination={{
-//                 clickable: true,
-//             }}
-//             modules={[Pagination, Autoplay]}
-//             className="mySwiper"
-//         >
-//             <SwiperSlide><ReviewCard /></SwiperSlide>
-//             <SwiperSlide><ReviewCard /></SwiperSlide>
-//             <SwiperSlide><ReviewCard /></SwiperSlide>
-//         </Swiper>
-//     )
-// }
+'use client';
+
+import { Carousel } from 'react-responsive-carousel';
+import ReviewCard from './ui/ReviewCard';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+export default function Reviews() {
+    return (
+        <Carousel
+            autoPlay
+            centerMode
+            showThumbs={false}
+            showStatus={false}
+            swipeable
+            infiniteLoop
+            
+        >
+            <ReviewCard img="https://randomuser.me/api/portraits/women/82.jpg" />
+            <ReviewCard img="https://randomuser.me/api/portraits/women/83.jpg" />
+            <ReviewCard img="https://randomuser.me/api/portraits/women/81.jpg" />
+        </Carousel>
+    );
+}
