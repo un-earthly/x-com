@@ -6,7 +6,7 @@ import { MinusCircleIcon, PlusCircleIcon } from "@heroicons/react/24/outline"
 import { useState } from 'react';
 export default function FAQ() {
     return (
-        <section className="my-10 w-2/4 mx-auto">
+        <section className="my-10 md:w-2/4 w-full px-5 md:px-0 mx-auto">
             <h1 className="text-3xl text-center my-10">Frequently asked questions</h1>
             <Accordion >
                 <Accordion.Panel >

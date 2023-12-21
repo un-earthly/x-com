@@ -10,9 +10,9 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="w-[1000px] h-[382px] top-20 left-1/2 -translate-x-1/2 bg-[#8000ff] text-3xl text-white absolute rounded-3xl">
+            <div className="lg:w-[1000px] w-full h-[382px] top-20 left-1/2 -translate-x-1/2 bg-[#8000ff] text-3xl text-white absolute rounded-3xl">
                 <div className="flex items-center justify-center flex-col w-full h-full">
-                    <h1 className='text-4xl font-semibold'>Enough Talk, Let's Build Success Together.</h1>
+                    <h1 className='text-4xl font-semibold text-center'>Enough Talk, Let&apos;s Build Success Together.</h1>
                     <Button className='my-5
                     ' >Get Started</Button>
                 </div>
