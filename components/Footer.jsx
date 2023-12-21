@@ -35,7 +35,7 @@ export default function Footer() {
                     <div className="flex flex-col">
                         <div className="flex mt-24 mb-12 flex-row justify-between">
                             <div className="">
-                                X-COM
+                                <img src="/logo.png" height={60}  width={60} alt="" />
                             </div>
                             <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
                             <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
@@ -62,7 +62,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <hr className="border-gray-600" />
-                        <p className="w-full text-center my-12 text-gray-600">Copyright © 2020 Besnik Creative</p>
+                        <p className="w-full text-center my-12 text-gray-600">Copyright © 2020 Rebels.</p>
                     </div>
                 </div>
             </div>
