@@ -12,7 +12,7 @@ export default function ReverseSection() {
                     <p className="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem  molestiae. Laborum numquam nobis commodi neque est laboriosam nesciunt blanditiis eos, sequi quaerat? adipisicing elit. Dolorum ducimus quos perspiciatis tempora odio?</p>
                     <div className="flex w-full md:justify-start justify-center items-end">
 
-                        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started</button>
+                        <button className="bg-[#8000ff] text-white text-base px-3 py-3 my-5 w-48 rounded-full ">Get Started</button>
                     </div>
 
                 </div>

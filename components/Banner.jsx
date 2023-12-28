@@ -16,15 +16,15 @@ export default function Banner() {
                                     <Avatar img="https://randomuser.me/api/portraits/women/26.jpg" rounded stacked />
                                 </Avatar.Group>
                             </div>
-                            <div className='flex items-center justify-center bg-teal-50/70 mx-auto my-5 rounded-full w-56 h-10'>
-                                Lorem ipsum dolor sit
+                            <div className='flex items-center justify-center bg-teal-50/70 mx-auto my-5 rounded-full w-72 h-10'>
+                                Rated 4.9/5.0 by our users ⭐
                             </div>
-                            <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">Lorem ipsum dolor .</h2>
+                            <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">Your one-stop-shop for dropshipping</h2>
                             <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit cum iure qui, nostrum at sapiente ducimus.
+                                Our revolutionary platform offers everything you need to make dropshipping easy. You name it, we offer it.
                             </p>
                             <div className="rounded-full border-2 h-10 w-10 mx-auto mt-2 mb-10"></div>
-                            <Button className='mx-auto rounded-full bg-white text-black'>Get Started</Button>
+                            <button className="text-[#8000ff] bg-white text-base px-3 py-3 my-5 w-48 rounded-full ">Get Started</button>
                         </div>
                     </div>
                 </div>

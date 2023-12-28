@@ -13,8 +13,8 @@ export default function Footer() {
             <div className="lg:w-[1000px] w-full h-[382px] top-20 left-1/2 -translate-x-1/2 bg-[#8000ff] text-3xl text-white absolute rounded-3xl">
                 <div className="flex items-center justify-center flex-col w-full h-full">
                     <h1 className='text-4xl font-semibold text-center'>Enough Talk, Let&apos;s Build Success Together.</h1>
-                    <Button className='my-5
-                    ' >Get Started</Button>
+                    <button className="text-[#8000ff] bg-white text-base px-3 py-3 my-5 w-48 rounded-full ">Get Started</button>
+
                 </div>
             </div>
 
@@ -28,9 +28,8 @@ export default function Footer() {
                     </div>
                     <div className="flex mt-8 flex-col md:flex-row md:justify-between">
                         <p className="w-full md:w-2/3 text-gray-400">To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your work has been tagged</p>
-                        <div className="w-44 pt-6 md:pt-0">
-                            <a className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
-                        </div>
+                        <button className="bg-[#8000ff] text-white text-base px-3 py-3 my-5 w-48 rounded-full ">Get Started</button>
+
                     </div>
                     <div className="flex flex-col">
                         <div className="flex mt-24 mb-12 flex-row justify-between">

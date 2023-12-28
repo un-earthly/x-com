@@ -8,7 +8,7 @@ export default function SolutionsSection() {
       <div className='lg:mb-64'>
         <h1 className='md:text-3xl text-xl text-center text-white'>From Chaos to Control -<br />  Simplify your Shipments</h1>
         <p className='w-3/5 text-center text-sm mx-auto text-white my-3'>You want to maintain a clear overview, keep everything running efficiently and more importantly focus on what really matters in your business.
-          <Button className='rounded-full  text-black bg-white hover:text-white duration-300 my-8 mx-auto'>Get Started</Button>
+          <button className="text-[#8000ff] bg-white text-base flex items-center justify-center mx-auto px-3 py-3 my-5 w-48 rounded-full ">Get Started</button>
         </p>
       </div>
 

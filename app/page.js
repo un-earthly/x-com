@@ -16,7 +16,7 @@ export default function Home() {
 
       <Header />
       <Banner />
-      <Branding />
+      {/* <Branding /> */}
       <Intro />
       <Section />
       <SolutionsSection />
